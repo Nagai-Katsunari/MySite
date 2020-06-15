@@ -1,10 +1,11 @@
 @media all and (max-width: 767px){
   
 *{
-  width: 90%;
+
   margin-left: auto;
   margin-right: auto;
   padding: 0px;
+  margin: 0px;
 }
 body{
   width: 100%;
@@ -47,6 +48,9 @@ nav ul li{
  }
 
  /*トップ写真*/
+ .main{
+   margin: 0px;
+ }
  .main-img{
    height: 650px;
  }
@@ -249,7 +253,9 @@ nav ul li{
 }
 .main-img2{
   float: left;
-  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
   margin-bottom: 90px;
   text-align: center;
 }
@@ -257,10 +263,21 @@ nav ul li{
 .img-content{
   width: 300px;
   height: 250px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .img-content:nth-child(odd){
   display: none;
 }
+
+.img-content:nth-child(even){
+  width: 300px;
+  height: 250px;
+
+  display: block;
+  margin-bottom: 10px;
+}
+
 
 /*feature*/
 .feature{
@@ -314,6 +331,16 @@ nav ul li{
   margin-left: 10px;
   margin-right: 10px;
 }
+/*アイコン*/
+.fa-bomb{
+  font-size: 60px;
+}
+.fa-apple-alt{
+  font-size: 60px;
+}
+.fa-battery-full{
+  font-size: 60px;
+}
 
 /*profile*/
 .profile{
@@ -347,6 +374,9 @@ nav ul li{
 
 .profile-img{
   width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
 }
 
 .profile-box .profile-img img{
@@ -360,7 +390,7 @@ nav ul li{
   width: auto;
 }
 
-.profile-text .myname{
+.profile-text .myname h3{
   font-size: 20px;
   margin-bottom: 5px;
 }
@@ -419,7 +449,7 @@ nav ul li{
 
 .right{
   text-align: center;
-  width: 90%;
+  width: 100%;
 }
 
 .left-text h3{
@@ -428,7 +458,9 @@ nav ul li{
 }
 
 .left-text p{
+
   margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 .left-text p:nth-child(1){
@@ -437,7 +469,10 @@ nav ul li{
 
 .icon{
   margin-top: 20px;
-  display: flex;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .right-text h3{
@@ -456,6 +491,17 @@ nav ul li{
 }
 
 .fa-large{
+  font-size: 50px;
+}
+
+.fa-facebook {
+  font-size: 50px;
+}
+.fa-twitter {
+  font-size: 50px;
+}
+
+.fa-instagram {
   font-size: 50px;
 }
 
